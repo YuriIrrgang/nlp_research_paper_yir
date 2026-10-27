@@ -1,0 +1,17 @@
+[project]
+name = "nlp-research-paper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "YuriIrrgang", email = "y@studioirrgang.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+nlp-research-paper = "nlp_research_paper:main"
+
+[build-system]
+requires = ["uv_build>=0.10.4,<0.11.0"]
+build-backend = "uv_build"
